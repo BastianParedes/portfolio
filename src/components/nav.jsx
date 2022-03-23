@@ -1,4 +1,9 @@
 import React from 'react';
+import { AiOutlineHome } from 'react-icons/ai';
+import { BiBrain, BiMailSend } from 'react-icons/bi';
+import { BsBriefcase, BsGlobe2 } from 'react-icons/bs';
+import { GiHamburgerMenu } from 'react-icons/gi';
+import { IoMdClose } from 'react-icons/io';
 import styles from '../styles/nav.module.css';
 
 
@@ -7,10 +12,10 @@ export default function Nav() {
 
     let MySection = (props) => {
         return (
-            <li>
-                <a href={props.href} className={styles['nav-button-color']}>
-                    <i className={props.icon}></i>
-                    <span>{props.textContent}</span>
+            <li className={styles['link-container']}>
+                <a href={props.href} className={styles['link'] + ' ' + styles['nav-button-color']}>
+                    <span className={styles['icon']}>{props.children}</span>
+                    <span className={styles['section-name']}>{props.textContent}</span>
                 </a>
             </li>
         );
@@ -27,14 +32,24 @@ export default function Nav() {
 
     return (
         <nav className={styles['side-bar'] + ' ' + (openedNav ? '' : styles['closed-side-bar'])}>
-            <button className={styles['nav-btn-opener'] + ' ' + (openedNav ? styles['nav-btn-opener-when-opened-nav'] : '')} onClick={openNav}><i className='bx bx-menu'></i></button>
-            <button className={styles['nav-btn-closer'] + ' ' + styles['nav-button-color']} onClick={closeNav}><i className='bx bx-x'></i></button>
+            <button className={styles['nav-btn-opener'] + ' ' + (openedNav ? styles['nav-btn-opener-when-opened-nav'] : '')} onClick={openNav}><GiHamburgerMenu /></button>
+            <button className={styles['nav-btn-closer'] + ' ' + styles['nav-button-color']} onClick={closeNav}><IoMdClose /></button>
             <ul className={styles['nav-list']}>
-                <MySection href='#begin' icon='bx bx-home' textContent='Inicio' />
-                <MySection href='#web-projects' icon='bx bx-briefcase' textContent='Proyectos web' />
-                <MySection href='#other-projects' icon='bx bx-briefcase' textContent='Otros proyectos' />
-                <MySection href='#skills' icon='bx bx-brain' textContent='Skills' />
-                <MySection href='#contact' icon='bx bx-mail-send' textContent='Contacto' />
+                <MySection href='#home' textContent='Inicio'>
+                    <AiOutlineHome />
+                </MySection>
+                <MySection href='#web-projects' textContent='Proyectos web'>
+                    <BsGlobe2 />
+                </MySection>
+                <MySection href='#other-projects' textContent='Otros proyectos'>
+                    <BsBriefcase />
+                </MySection>
+                <MySection href='#skills' textContent='Skills'>
+                    <BiBrain />
+                </MySection>
+                <MySection href='#contact'textContent='Contacto'>
+                    <BiMailSend />
+                </MySection>
             </ul>
         </nav>
     );

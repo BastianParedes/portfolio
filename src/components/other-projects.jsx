@@ -1,4 +1,5 @@
 import React from 'react';
+import { BsGithub } from 'react-icons/bs';
 import SectionTittle  from './section-tittle';
 import styles from '../styles/other-projects.module.css';
 
@@ -10,7 +11,7 @@ export default class OtherProjects extends React.Component {
                 <img className={styles['project-image']} src={props.src} alt={props.name}/>
                 <span className={styles['project-name']}>{props.name}</span>
                 <div className={styles['links-project-container']}>
-                    <a className={styles['link-btn-project']} href={props.githubhref} target='_blank' rel='noreferrer noopener'><i className='bx bxl-github'></i></a>
+                    <a className={styles['link-btn-project']} href={props.githubhref} target='_blank' rel='noreferrer noopener'><BsGithub /></a>
                 </div>
             </div>
         );

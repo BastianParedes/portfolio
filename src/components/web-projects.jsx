@@ -1,4 +1,7 @@
 import React from 'react';
+import { FaGlobe } from 'react-icons/fa'
+import { BsGithub } from 'react-icons/bs'
+
 import SectionTittle  from './section-tittle';
 import styles from '../styles/web-projects.module.css';
 
@@ -10,8 +13,8 @@ export default function WebProjects() {
                 <a href={props.href} target='_blank' rel='noreferrer noopener'><img className={styles['project-image']} src={props.src} alt={props.name}/></a>
                 <span className={styles['project-name']}>{props.name}</span>
                 <div className={styles['links-project-container']}>
-                    <a className={styles['link-btn-project']} href={props.href} target='_blank' rel='noreferrer noopener'><i className='bx bx-info-circle'></i></a>
-                    <a className={styles['link-btn-project']} href={props.githubhref} target='_blank' rel='noreferrer noopener'><i className='bx bxl-github'></i></a>
+                    <a className={styles['link-btn-project']} href={props.href} target='_blank' rel='noreferrer noopener'><FaGlobe /></a>
+                    <a className={styles['link-btn-project']} href={props.githubhref} target='_blank' rel='noreferrer noopener'><BsGithub /></a>
                 </div>
             </div>
         );

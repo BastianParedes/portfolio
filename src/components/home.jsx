@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from '../styles/home.module.css';
+import { BiDownArrowAlt } from 'react-icons/bi';
 
 export default class Home extends React.Component {
 
@@ -54,7 +55,7 @@ export default class Home extends React.Component {
                     </div>
                 </div>
                 <a className={styles['btn-down']} href='#web-projects'>
-                    <i className='bx bx-down-arrow-alt'></i>
+                    <BiDownArrowAlt />
                 </a>
             </section>
         );

@@ -70,20 +70,21 @@
     flex-direction: column;
 }
 
-.nav-list li{
+.link-container{
     flex-grow: 1;
     display: flex;
     align-items: center;
     height: auto;
 }
 
-.nav-list li a {
+.link {
     display: flex;
     align-items: center;
     text-decoration: none;
     font-size: 1em;
 }
 
-.nav-list li a i {
+.icon {
     margin-right: 1.5625em;
+    display: flex;
 }
