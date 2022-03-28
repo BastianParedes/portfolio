@@ -27,7 +27,7 @@ export default function WebProjects() {
                 <MyProject href='?' src={require('../images/projects/portfolio.png')} name='Portafolio' githubhref='https://github.com/BastianParedes/portfolio'/>
                 <MyProject href='https://bastianparedes.com/pdf-constructor/' src={require('../images/projects/pdf-constructor.png')} name='PDF constructor' githubhref='https://github.com/BastianParedes/pdf-constructor'/>
                 <MyProject href='https://bastianparedes.com/my-global-chat/' src={require('../images/projects/my-global-chat.jpg')} name='My global chat' githubhref='https://github.com/BastianParedes/my-global-chat'/>
-                <MyProject href='https://bastianparedes.com/tu-salad/' src={require('../images/projects/tu-salad.png')} name='Tu Salad' githubhref='https://github.com/BastianParedes/tu-salad'/>
+                <MyProject href='https://tu-salad.herokuapp.com/' src={require('../images/projects/tu-salad.png')} name='Tu Salad' githubhref='https://github.com/BastianParedes/tu-salad'/>
             </div>
         </section>
     );
