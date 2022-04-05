@@ -1,11 +1,10 @@
-import React from 'react';
 import { BsGithub } from 'react-icons/bs';
 import SectionTittle  from './section-tittle';
 import styles from '../styles/other-projects.module.css';
 
-export default class OtherProjects extends React.Component {
+export default function OtherProjects() {
 
-    MyProject(props) {
+    let MyProject = (props) => {
         return (
             <div className={styles['project-card']}>
                 <img className={styles['project-image']} src={props.src} alt={props.name}/>
@@ -19,16 +18,14 @@ export default class OtherProjects extends React.Component {
 
 
 
-    render() {
-        return (
-            <section id='other-projects' className={styles['other-projects']}>
-                <SectionTittle>Otros proyectos</SectionTittle>
-                <div className={styles['big-section-content']}>
-                    <this.MyProject src={require('../images/projects/tstmaker.png')} name='TstMaker' githubhref='https://github.com/BastianParedes/tstmaker'/>
-                </div>
-            </section>
-        );
-    }
+    return (
+        <section id='other-projects' className={styles['other-projects']}>
+            <SectionTittle>Otros proyectos</SectionTittle>
+            <div className={styles['big-section-content']}>
+                <MyProject src={require('../images/projects/tstmaker.png')} name='TstMaker' githubhref='https://github.com/BastianParedes/tstmaker'/>
+            </div>
+        </section>
+    );
 
 }
   
