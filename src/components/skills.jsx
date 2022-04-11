@@ -21,7 +21,7 @@ export default function Skills() {
                 <Skill src={require('../images/skills/javascript.png')} name='JavaScript' />
                 <Skill src={require('../images/skills/typescript.png')} name='TypeScript' />
                 <Skill src={require('../images/skills/react.js.png')} name='React.js' />
-                <Skill src={require('../images/skills/next.js.jpg')} name='Next.js' />
+                <Skill src={require('../images/skills/next.js.png')} name='Next.js' />
                 <Skill src={require('../images/skills/nodejs.png')} name='Node.js' />
                 <Skill src={require('../images/skills/python3.png')} name='Python 3' />
                 <Skill src={require('../images/skills/git.png')} name='Git' />
