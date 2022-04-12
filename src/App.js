@@ -1,13 +1,13 @@
 import 'normalize.css';
 import './styles/general.css';
 
-import Nav from './components/nav.jsx';
+import Nav from './components/nav';
 import Home from './components/home';
-import WebProjects from './components/web-projects.jsx';
-import OtherProjects from './components/other-projects.jsx';
-import Skills from './components/skills.jsx';
+import WebProjects from './components/web-projects';
+import OtherProjects from './components/other-projects';
+import Skills from './components/skills';
 import Contact from './components/contact';
-import Footer from './components/footer.jsx';
+import Footer from './components/footer';
 
 
 export default function App() {
