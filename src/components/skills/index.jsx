@@ -6,7 +6,7 @@ export default function Skills() {
     let Skill = (props) => {
         return (
             <div className={styles['skill-card']}>
-                <img className={styles['skill-image']} src={process.env.PUBLIC_URL + '/images/projects/' + props.src} alt={props.name}/>
+                <img className={styles['skill-image']} src={process.env.PUBLIC_URL + '/images/skills/' + props.src} alt={props.name}/>
                 <p className={styles['skill-name']}>{props.name}</p>
             </div>
         );
