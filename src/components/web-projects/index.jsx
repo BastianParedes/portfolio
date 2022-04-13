@@ -10,7 +10,7 @@ export default function WebProjects() {
     let MyProject = (props) => {
         return (
             <div className={styles['project-card']}>
-                <a href={props.href} target='_blank' rel='noreferrer noopener'><img className={styles['project-image']} src={process.env.PUBLIC_URL + props.src} alt={props.name}/></a>
+                <a href={props.href} target='_blank' rel='noreferrer noopener'><img className={styles['project-image']} src={process.env.PUBLIC_URL + '/images/projects/' + props.src} alt={props.name}/></a>
                 <span className={styles['project-name']}>{props.name}</span>
                 <div className={styles['links-project-container']}>
                     <a className={styles['link-btn-project']} href={props.href} target='_blank' rel='noreferrer noopener'><FaGlobe /></a>
@@ -24,10 +24,10 @@ export default function WebProjects() {
         <section id='web-projects' className={styles['web-projects']}>
             <SectionTittle>Proyectos web</SectionTittle>
             <div className={styles['big-section-content']}>
-                <MyProject href='?' src={'/images/projects/portfolio.png'} name='Portafolio' githubhref='https://github.com/BastianParedes/bastianparedes.github.io'/>
-                <MyProject href='https://bastianparedes.com/pdf-constructor/' src={'/images/projects/pdf-constructor.png'} name='PDF constructor' githubhref='https://github.com/BastianParedes/pdf-constructor'/>
-                <MyProject href='https://bastianparedes.com/my-global-chat/' src={'/images/projects/my-global-chat.jpg'} name='My global chat' githubhref='https://github.com/BastianParedes/my-global-chat'/>
-                <MyProject href='https://tu-salad.herokuapp.com/' src={'/images/projects/tu-salad.png'} name='Tu Salad' githubhref='https://github.com/BastianParedes/tu-salad'/>
+                <MyProject href='?' src='/images/projects/portfolio.png' name='Portafolio' githubhref='https://github.com/BastianParedes/bastianparedes.github.io'/>
+                <MyProject href='https://bastianparedes.com/pdf-constructor/' src='/images/projects/pdf-constructor.png' name='PDF constructor' githubhref='https://github.com/BastianParedes/pdf-constructor'/>
+                <MyProject href='https://bastianparedes.com/my-global-chat/' src='/images/projects/my-global-chat.jpg' name='My global chat' githubhref='https://github.com/BastianParedes/my-global-chat'/>
+                <MyProject href='https://tu-salad.herokuapp.com/' src='/images/projects/tu-salad.png' name='Tu Salad' githubhref='https://github.com/BastianParedes/tu-salad'/>
             </div>
         </section>
     );
