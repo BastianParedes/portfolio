@@ -4,7 +4,7 @@ import { BiBrain, BiMailSend } from 'react-icons/bi';
 import { BsBriefcase, BsGlobe2 } from 'react-icons/bs';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { IoMdClose } from 'react-icons/io';
-import styles from '../styles/nav.module.css';
+import styles from './styles.module.css';
 
 
 export default function Nav() {

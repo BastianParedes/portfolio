@@ -15,20 +15,16 @@
     position: absolute;
     height: 100%;
     width: 100%;
-    background-color: red;
-}
-.particles__canvas {
-    position: absolute;
-    background-color: yellow;
+    z-index: -1;
 }
 
 
 .cuadro {
     min-height: 9.375rem;
     min-width: 21.25rem;
-    color: rgb(255, 255, 255, 1);
+    color: rgb(255, 255, 255);
     text-align: center;
-    backdrop-filter: blur(0.625rem);
+    /* backdrop-filter: blur(0.625rem); */
 }
 
 .typewriter-container {

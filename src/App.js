@@ -1,5 +1,4 @@
 import 'normalize.css';
-import './styles/general.css';
 
 import Nav from './components/nav';
 import Home from './components/home';

@@ -1,4 +1,4 @@
-import styles from '../styles/section-tittle.module.css';
+import styles from './styles.module.css';
 
 
 export default function SectionTittle(props) {
