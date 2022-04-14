@@ -16,6 +16,11 @@
     height: 100%;
     width: 100%;
     z-index: -1;
+    
+}
+
+.particles__canvas {
+    background: linear-gradient(rgb(0, 0, 94), rgb(0, 0, 0));
 }
 
 

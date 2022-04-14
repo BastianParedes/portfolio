@@ -8,7 +8,6 @@
 }
 
 body {
-    /* overflow: hidden; */
     background: url('/images/background/background.jpg');
     background-position: center;
     background-size: cover;
