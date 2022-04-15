@@ -1,7 +1,5 @@
 
-.about {
-    padding: 0 10rem;
-}
+
 
 .main {
     display: grid;
@@ -35,26 +33,24 @@
 
 
 .skills-container {
-    padding-top: 1rem;
+    position: relative;
+    padding-top: .9rem;
     display: grid;
     place-items:  center;
-    gap: 3rem;
-    grid-template-columns: repeat(auto-fit, minmax(min(8rem,100%), 1fr));
+    gap: 3rem 6rem;
+    grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
 }
 
 .skill-card {
     width: 5rem;
-    height: 6rem;
 }
 
 .skill-image {
     width: 100%;
-    max-height: 100%;
     object-fit: contain;
 }
 
 .skill-name {
-    font-size: 1rem;
     font-weight: bolder;
     text-align: center;
     margin: 0;

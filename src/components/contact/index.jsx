@@ -1,4 +1,4 @@
-import SectionTittle  from '../section-tittle';
+import SectionTittle  from '../section';
 import styles from './styles.module.css';
 
 export default function Contact() {

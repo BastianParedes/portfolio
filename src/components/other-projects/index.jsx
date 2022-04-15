@@ -1,5 +1,5 @@
 import { BsGithub } from 'react-icons/bs';
-import SectionTittle  from '../section-tittle';
+import Section  from '../section';
 import styles from './styles.module.css';
 
 export default function OtherProjects() {
@@ -19,12 +19,11 @@ export default function OtherProjects() {
 
 
     return (
-        <section id='other-projects' className={styles['other-projects']}>
-            <SectionTittle title='Otros proyectos' />
+        <Section id='other-projects' className={styles['other-projects']} title='Otros proyectos'>
             <div className={styles['big-section-content']}>
                 <MyProject src='tstmaker.png' name='TstMaker' githubhref='https://github.com/BastianParedes/tstmaker'/>
             </div>
-        </section>
+        </Section>
     );
 
 }

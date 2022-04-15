@@ -1,6 +1,11 @@
-.big-section-title {
-    text-align: center;
+
+.section {
+    margin: 0 10rem;
     padding-top: 6.25rem;
+}
+
+.title {
+    text-align: center;
     margin-bottom: 3.125rem;
     font-size: 3rem;
     color: rgb(69, 195, 143);

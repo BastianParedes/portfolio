@@ -1,6 +1,6 @@
 
 import styles from './styles.module.css';
-import SectionTittle from '../section-tittle';
+import Section from '../section';
 
 
 function Skill (props) {
@@ -15,8 +15,7 @@ function Skill (props) {
 
 export default function About() {
     return (
-        <section id='about' className={styles['about']}>
-            <SectionTittle title='About me' />
+        <Section id='about' className={styles['about']} title='About me'>
             <div className={styles['main']}>
                 <div className={styles['main-left']}>
                     <h2 className={styles['main-left__h2']}>Soy Bastián Paredes,</h2>
@@ -41,7 +40,7 @@ export default function About() {
                     </div>
                 </div>
             </div>
-        </section>
+        </Section>
     );
 }
   

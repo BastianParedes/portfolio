@@ -2,7 +2,7 @@ import React from 'react';
 import { FaGlobe } from 'react-icons/fa'
 import { BsGithub } from 'react-icons/bs'
 
-import SectionTittle  from '../section-tittle';
+import SectionTittle  from '../section';
 import styles from './styles.module.css';
 
 export default function WebProjects() {
