@@ -2,16 +2,10 @@
 * {
     box-sizing: border-box;
     scroll-behavior: smooth;
-    margin: 0;
-    padding: 0;
-    font-family: 'Oxygen', sans-serif;
 }
 
 body {
-    background: url('/images/background/background.jpg');
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+    /* background: rgb(139, 139, 139); */
 }
 
 

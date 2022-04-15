@@ -14,7 +14,7 @@ export default function Contact() {
 
     return (
         <section id='contact' className={styles['contact']}>
-            <SectionTittle>Contacto</SectionTittle>
+            <SectionTittle title='Contacto' />
             <div className={styles['big-section-content']}>
                 <SocialNetwork className={styles['contact-btn-github']} href='https://github.com/BastianParedes' src='github.png' alt='Ir a GitHub' textContent='GitHub' />
                 <SocialNetwork className={styles['contact-btn-email']} href='mailto:bastian.p.trabajo@outlook.co' src='email.png' alt='Enviar correo' textContent='Email Me' />

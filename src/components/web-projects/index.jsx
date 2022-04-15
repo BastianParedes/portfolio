@@ -22,7 +22,7 @@ export default function WebProjects() {
 
     return (
         <section id='web-projects' className={styles['web-projects']}>
-            <SectionTittle>Proyectos web</SectionTittle>
+            <SectionTittle title='Proyectos web' />
             <div className={styles['big-section-content']}>
                 <MyProject href='?' src='portfolio.png' name='Portafolio' githubhref='https://github.com/BastianParedes/bastianparedes.github.io'/>
                 <MyProject href='https://bastianparedes.com/pdf-constructor/' src='pdf-constructor.png' name='PDF constructor' githubhref='https://github.com/BastianParedes/pdf-constructor'/>

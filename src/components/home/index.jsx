@@ -33,7 +33,7 @@ export default function Home() {
                 />
                 </div>
             </div>
-            <a className={styles['btn-down']} href='#web-projects'>
+            <a className={styles['btn-down']} href='#about'>
                 <BiDownArrowAlt />
             </a>
         </section>

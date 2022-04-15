@@ -1,0 +1,69 @@
+
+.about {
+    padding: 0 10rem;
+}
+
+.main {
+    display: grid;
+    gap: 80px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.main-left {
+}
+
+.main-left__h2 {
+
+}
+
+.main-left__p {
+    text-align: justify;
+    line-height: 40px;
+    font-size: 1.2rem;
+}
+
+
+
+
+.main-right {
+}
+
+.main-right__h2 {
+    text-align: center;
+}
+
+
+
+.skills-container {
+    padding-top: 1rem;
+    display: grid;
+    place-items:  center;
+    gap: 3rem;
+    grid-template-columns: repeat(auto-fit, minmax(min(8rem,100%), 1fr));
+}
+
+.skill-card {
+    width: 5rem;
+    height: 6rem;
+}
+
+.skill-image {
+    width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.skill-name {
+    font-size: 1rem;
+    font-weight: bolder;
+    text-align: center;
+    margin: 0;
+}
+
+
+
+@media (max-device-width: 1000px) {
+    .main {
+        grid-template-columns: 1fr;
+    }
+}

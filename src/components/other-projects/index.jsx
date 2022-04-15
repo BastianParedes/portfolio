@@ -20,7 +20,7 @@ export default function OtherProjects() {
 
     return (
         <section id='other-projects' className={styles['other-projects']}>
-            <SectionTittle>Otros proyectos</SectionTittle>
+            <SectionTittle title='Otros proyectos' />
             <div className={styles['big-section-content']}>
                 <MyProject src='tstmaker.png' name='TstMaker' githubhref='https://github.com/BastianParedes/tstmaker'/>
             </div>
