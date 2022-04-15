@@ -1,0 +1,35 @@
+{
+    "projects": [
+        {
+            "name": "Portafolio",
+            "link": "?",
+            "image": "portfolio.png",
+            "github": "https://github.com/BastianParedes/bastianparedes.github.io"
+        },
+        {
+            "name": "PDF constructor",
+            "link": "https://bastianparedes.com/pdf-constructor/",
+            "image": "pdf-constructor.png",
+            "github": "https://github.com/BastianParedes/pdf-constructor/"
+
+        },
+        {
+            "name": "My global chat",
+            "link": "https://bastianparedes.com/my-global-chat/",
+            "image": "my-global-chat.jpg",
+            "github": "https://github.com/BastianParedes/my-global-chat/"
+        },
+        {
+            "name": "Tu Salad",
+            "link": "https://tu-salad.herokuapp.com/",
+            "image": "tu-salad.png",
+            "github": "https://github.com/BastianParedes/tu-salad"
+        },
+        {
+            "name": "TstMaker",
+            "link": "",
+            "image": "tstmaker.png",
+            "github": "https://github.com/BastianParedes/tstmaker"
+        }
+    ]
+}

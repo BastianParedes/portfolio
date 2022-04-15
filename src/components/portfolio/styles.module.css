@@ -1,0 +1,51 @@
+
+/* .projects-container {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 500px;
+    gap: 2rem;
+} */
+
+
+.projects-container {
+}
+
+
+
+.project-card {
+    width: 80%;
+    height: 350px;
+    position: relative;
+    background-color: red;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+
+.image {
+    max-width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: contain;
+    left: 0;
+}
+
+.description-container {
+    width: 50%;
+    height: 100%;
+    right: 0;
+    position: absolute;
+    z-index: 99;
+}
+
+
+.project-name {
+    text-align: right;
+}
+
+.project-description {
+    background-color: green;
+    text-align: justify;
+}

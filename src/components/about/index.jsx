@@ -15,7 +15,7 @@ function Skill (props) {
 
 export default function About() {
     return (
-        <Section id='about' className={styles['about']} title='About me'>
+        <Section id='about' title='About me'>
             <div className={styles['main']}>
                 <div className={styles['main-left']}>
                     <h2 className={styles['main-left__h2']}>Soy Bastián Paredes,</h2>
@@ -23,7 +23,7 @@ export default function About() {
                         Un Full Stack Developer con experiencia construyendo sitios web con responsive design que conecten front-end y back-end. Me especializo en el uso de JavaScript, React.js y Next.js.
                     </p>
                     <p className={styles['main-left__p']}>
-                        Siempre busco mejorar mis habilidades desarrollando proyectos propios a la par de mi trabajo. Estoy constantemente estudiando acerca de las nuevas tecnologías para actualizar mi repertorio de herramientas para que mis creaciones tengan códigos fáciles de leer, sean seguras y eficientes.
+                        Siempre busco mejorar mis habilidades desarrollando proyectos propios a la par de mi trabajo. Estoy constantemente estudiando acerca de las nuevas tecnologías para actualizar mi repertorio de herramientas para que los códigos de mis creaciones sean fáciles de leer, seguros y eficientes.
                     </p>
                 </div>
                 <div className={styles['main-right']}>
