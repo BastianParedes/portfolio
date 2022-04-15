@@ -16,21 +16,19 @@ export default function Home() {
                 // url=''
                 // style=''
                 className={styles['particles']}
-                canvasClassName={styles['particles__canvas']}
+                // canvasClassName={styles['particles__canvas']}
                 // container=''
                 // init={null}
                 // loaded={null}
                 options={ParticlesOptions}
             />
             <div className={styles['cuadro']}>
-                <h1>Bastián Paredes</h1>
+                <h1 className={styles['my-name']}>Bastián Paredes</h1>
                 <div className={styles['typewriter-container']}>
                 <Typewriter
-                    options={{
-                        autoStart: true,
-                        loop: true,
-                        pauseFor: 3000,
-                        strings: ['Full Stack Developer'],
+                    onInit={(typewriter) => {
+                        typewriter.typeString('Full Stack Developer')
+                        .start();
                     }}
                 />
                 </div>
