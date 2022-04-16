@@ -1,35 +1,44 @@
 {
     "projects": [
         {
-            "name": "Portafolio",
+            "name": "My Portfolio",
             "link": "?",
             "image": "portfolio.png",
-            "github": "https://github.com/BastianParedes/bastianparedes.github.io"
-        },
-        {
-            "name": "PDF constructor",
-            "link": "https://bastianparedes.com/pdf-constructor/",
-            "image": "pdf-constructor.png",
-            "github": "https://github.com/BastianParedes/pdf-constructor/"
-
-        },
-        {
-            "name": "My global chat",
-            "link": "https://bastianparedes.com/my-global-chat/",
-            "image": "my-global-chat.jpg",
-            "github": "https://github.com/BastianParedes/my-global-chat/"
+            "github": "https://github.com/BastianParedes/bastianparedes.github.io",
+            "description": "Página web dedicada a mostrar algunos de los proyectos que he construido en trabajos para empresas o como método de aprendizaje de las tecnologías.",
+            "technologies": ["React.js", "tsParticles"]
         },
         {
             "name": "Tu Salad",
             "link": "https://tu-salad.herokuapp.com/",
             "image": "tu-salad.png",
-            "github": "https://github.com/BastianParedes/tu-salad"
+            "github": "https://github.com/BastianParedes/tu-salad",
+            "description": "Página web de venta de bowls de ensalada que incluye un carrito de compras y una pasarela de pago construida mediante el servicio Webpay plus de Transbank. Las compras quedan registradas en una base de datos para consultar su estado.",
+            "technologies": ["React.js", "Next.js", "TypeScript", "WebPay"]
+        },
+        {
+            "name": "PDF Constructor",
+            "link": "https://bastianparedes.com/pdf-constructor/",
+            "image": "pdf-constructor.png",
+            "github": "https://github.com/BastianParedes/pdf-constructor/",
+            "description": "Es una página web que recibe las imágenes cargadas por el usuario, las configura a gusto y finalmente genera un archivo PDF que se guarda en el computador del mismo. Todo el proceso ocurre del lado del Front-end.",
+            "technologies": ["React.js", "SortableJS", "jsPDF"]
+        },
+        {
+            "name": "My Global Chat",
+            "link": "https://bastianparedes.com/my-global-chat/",
+            "image": "my-global-chat.jpg",
+            "github": "https://github.com/BastianParedes/my-global-chat/",
+            "description": "Aplicación web que pide al usuario un nombre y lo lleva a una sala donde todos los conectados a la página en ese momento pueden conversar al mismo tiempo.",
+            "technologies": ["React.js", "Socket.IO"]
         },
         {
             "name": "TstMaker",
             "link": "",
             "image": "tstmaker.png",
-            "github": "https://github.com/BastianParedes/tstmaker"
+            "github": "https://github.com/BastianParedes/tstmaker",
+            "description": "Aplicación de escritorio que construye evaluaciones de seleción única de matemática para el nivel secundario de las escuelas chilenas.",
+            "technologies": ["Python 3", "Tkinter", "MiKTeX"]
         }
     ]
 }
