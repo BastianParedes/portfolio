@@ -13,11 +13,9 @@ function Project(props) {
     const imagePath = process.env.PUBLIC_URL + '/images/background/background.jpg';
     return (
         <div className={styles['project-card']}>
-            <a href={props.link} target='_blank' rel='noreferrer noopener'>
-                <img className={styles['image']} src={imagePath} alt={props.image}/>
-            </a>
-            <div className={styles['description-container']}>
-                <h3 className={styles['project-name']}>{props.name}</h3>
+            <img className={styles['image']} src={imagePath} alt={props.image}/>
+            <h2 className={styles['project-name']}>{props.name}</h2>
+            <div className={styles['project-description-container']}>
                 <p className={styles['project-description']}>
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi possimus nemo sapiente aliquid ducimus voluptate culpa laboriosam qui, deserunt, mollitia adipisci, doloremque quia? Qui, velit voluptas excepturi maiores vel necessitatibus!
                 </p>
