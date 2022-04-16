@@ -23,8 +23,8 @@
             "value":"rgb(35, 52, 250)"
         },
         "number": {
-            "value": 50,
-            "limit": 50
+            "value": 30,
+            "limit": 30
         },
         "move": {
             "enable": true,
