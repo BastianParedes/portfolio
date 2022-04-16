@@ -1,14 +1,6 @@
 {
     "projects": [
         {
-            "name": "My Portfolio",
-            "link": "?",
-            "image": "portfolio.png",
-            "github": "https://github.com/BastianParedes/bastianparedes.github.io",
-            "description": "Página web dedicada a mostrar algunos de los proyectos que he construido en trabajos para empresas o como método de aprendizaje de las tecnologías.",
-            "technologies": ["React.js", "tsParticles"]
-        },
-        {
             "name": "Tu Salad",
             "link": "https://tu-salad.herokuapp.com/",
             "image": "tu-salad.png",

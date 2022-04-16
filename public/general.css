@@ -1,11 +1,10 @@
 /* Generales */
 * {
     box-sizing: border-box;
-    scroll-behavior: smooth;
 }
 
-body {
-    /* background: rgb(139, 139, 139); */
+html {
+    scroll-behavior: smooth;
 }
 
 

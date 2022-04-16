@@ -1,27 +1,30 @@
-import SectionTittle  from '../section';
+
 import styles from './styles.module.css';
-import { Section } from '../common';
+
+import { AiOutlineLinkedin } from 'react-icons/ai';
+import { FiInstagram } from 'react-icons/fi';
+import { VscGithubAlt, VscMail } from 'react-icons/vsc';
+
+function Link({ link, children }) {
+    return (
+        <li className={styles['link']}>
+            <a className={styles['link__a']} href={link}>{children}</a>
+        </li>
+    );
+}
+
 
 export default function Contact() {
-
-    let SocialNetwork = (props) => {
-        return (
-            <a className={styles['contact-btn'] + ' ' + props.className} target='_blank'  href={props.href} rel='noreferrer noopener'>
-                <img className={styles['contact-image']} src={process.env.PUBLIC_URL + '/images/contact/' + props.src} alt={props.alt}/>
-                <span className={styles['contact-name']}>{props.textContent}</span>
-            </a>  
-        );
-    }
-
     return (
-        <section id='contact' className={styles['contact']}>
-            <SectionTittle title='Contacto' />
-            <div className={styles['big-section-content']}>
-                <SocialNetwork className={styles['contact-btn-github']} href='https://github.com/BastianParedes' src='github.png' alt='Ir a GitHub' textContent='GitHub' />
-                <SocialNetwork className={styles['contact-btn-email']} href='mailto:bastian.p.trabajo@outlook.co' src='email.png' alt='Enviar correo' textContent='Email Me' />
-                <SocialNetwork className={styles['contact-btn-linkedin']} href='https://www.linkedin.com/in/bastianparedes/' src='linkedin.png' alt='Ir a LinkedIn' textContent='LinkedIn' />
-            </div>
-        </section>
+        <div className={styles['link-container']}>
+            <ul className={styles['links-list']}>
+                <Link link='https://github.com/BastianParedes'><VscGithubAlt /></Link>
+                <Link link='mailto:bastian.p.trabajo@outlook.com'><VscMail /></Link> 
+                <Link link='https://www.linkedin.com/in/bastianparedes/'><AiOutlineLinkedin /></Link>
+                <Link link='https://www.instagram.com/bastian.p.95/'><FiInstagram /></Link>
+                <div className={styles['vertical-line']}></div>
+            </ul>
+        </div>
     );
 }
 
