@@ -18,11 +18,11 @@ export default function Contact() {
     return (
         <div className={styles['link-container']}>
             <ul className={styles['links-list']}>
-            <div className={styles['vertical-line']}></div>
                 <Link link='https://github.com/BastianParedes'><VscGithubAlt /></Link>
                 <Link link='mailto:bastian.p.trabajo@outlook.com'><VscMail /></Link> 
                 <Link link='https://www.linkedin.com/in/bastianparedes/'><AiOutlineLinkedin /></Link>
                 <Link link='https://www.instagram.com/bastian.p.95/'><FiInstagram /></Link>
+                <div className={styles['vertical-line']}></div>
             </ul>
         </div>
     );
