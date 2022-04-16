@@ -12,7 +12,7 @@ export default function App() {
     return <>
         <Home />
         <Nav />
-        <div style={{position: "relative"}}>
+        <div style={{position: 'relative', backgroundColor: 'rgb(0, 85, 124)'}}>
             <About />
             <Portfolio />
             <Contact />
