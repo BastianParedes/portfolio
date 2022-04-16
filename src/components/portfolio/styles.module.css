@@ -76,10 +76,10 @@
     font-size: 2rem;
     display: flex;
     text-decoration: none;
-    color: inherit;
+    color: rgb(255, 255, 255);
 }
 
 .link-github:hover, .link-website:hover {
     transform: scale(1.1);
-    color: rgb(255, 255, 255);
+    color: rgb(0, 255, 255);
 }
