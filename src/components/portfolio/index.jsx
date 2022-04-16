@@ -2,7 +2,7 @@
 import React from 'react';
 import { VscSignOut, VscGithub } from 'react-icons/vsc'
 
-import Section  from '../section';
+import { Section } from '../common';
 import styles from './styles.module.css';
 import stylesRight from './stylesRight.module.css';
 import stylesLeft from './stylesLeft.module.css';
@@ -16,7 +16,7 @@ function Project( { index, name, link, image, github, description, technologies 
     // const imagePath = process.env.PUBLIC_URL + '/images/projects/' + image;
     const imagePath = process.env.PUBLIC_URL + '/images/background/background.jpg';
     return (
-        <div className={`${styles['project-card']} ${stylesSide['project-card']}`}>
+        <div className={styles['project-card']}>
             <img className={`${styles['image']} ${stylesSide['image']}`} src={imagePath} alt={image}/>
             <h2 className={`${styles['project-name']} ${stylesSide['project-name']}`}>{name}</h2>
             <div className={`${styles['project-description-container']} ${stylesSide['project-description-container']}`}>

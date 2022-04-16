@@ -1,5 +1,6 @@
 import SectionTittle  from '../section';
 import styles from './styles.module.css';
+import { Section } from '../common';
 
 export default function Contact() {
 

@@ -1,6 +1,6 @@
 
 import styles from './styles.module.css';
-import Section from '../section';
+import { Section } from '../common';
 
 
 function Skill (props) {
