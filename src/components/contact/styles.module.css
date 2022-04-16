@@ -44,3 +44,35 @@
     background-color: rgb(255, 255, 255);
     margin: 0 auto;
 }
+
+
+
+@media (max-device-width: 600px) {
+    .link-container {
+        width: fit-content;
+        height: fit-content;
+        position: relative;
+        display: block;
+        margin: 0 auto;
+        padding: 1rem;
+    }
+    
+    .links-list {
+        padding: 0;
+        margin: 0;
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1rem;
+    }
+
+    .link {
+        margin: 0;
+        text-align: center;
+        font-size: 4rem;
+    }
+
+    .vertical-line {
+        display: none;
+    }
+}
