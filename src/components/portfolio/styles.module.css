@@ -17,8 +17,7 @@
     width: max(60% , 700px);
     height: 350px;
     position: relative;
-    /* background-color: red; */
-    margin: 2rem auto;
+    margin: 5rem auto;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(6, 1fr);
@@ -28,15 +27,11 @@
 }
 
 
-.image-container {
-    
-}
 
 .image {
-    grid-column: 1 / 8;
-    grid-row: 1 / -1;
     width: 100%;
     height: 100%;
+    grid-row: 1 / -1;
     object-fit: cover;
 }
 
@@ -44,15 +39,17 @@
 
 .project-name {
     width: 100%;
-    grid-column: 8 / -1;
-    grid-row: 1 / 3;
+    height: 100%;
+    grid-row: 1;
     text-align: right;
-    font-size: 2rem;    
+    font-size: 2rem;
+    margin: 0;
 }
 
 .project-description-container {
-    grid-column: 5 / -1;
-    grid-row: 2 / 6;
+    width: 100%;
+    height: 100%;
+    grid-row: 2 / 5;
     display: flex;
     align-items: center;
 }
@@ -62,25 +59,22 @@
     color: rgb(255, 255, 255);
     font-size: 1.2rem;
     text-align: justify;
-    padding: 1rem;
+    padding: 1.5rem;
     border-radius: 8px;
+    margin: 0 0 auto 0;
 }
 
 .project-technologies {
     width: 100%;
-    grid-column: 8 / -1;
     grid-row: 5;
-    text-align: right;
-    word-spacing: .5rem;
+    font-size: 1.5rem;
+    word-spacing: .7rem;
 }
 
 
-.links-container {
-    grid-column: 12;
-    grid-row: 6;
-}
 
 .link-github, .link-website {
+    grid-row: 6;
     font-size: 2rem;
     display: flex;
     text-decoration: none;
@@ -89,14 +83,4 @@
 
 .link-github:hover, .link-website:hover {
     transform: scale(1.1);
-}
-
-.link-github {
-    grid-column: 12;
-    grid-row: 6;
-}
-
-.link-website {
-    grid-column: 11;
-    grid-row: 6;
 }

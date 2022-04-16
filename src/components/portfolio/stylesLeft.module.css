@@ -1,0 +1,30 @@
+
+.image {
+    grid-column: 6 / -1;
+}
+
+
+.project-name {
+    grid-column: 1 / 6;
+    text-align: left;
+}
+
+.project-description-container {
+    grid-column: 1 / 9;
+}
+
+
+.project-technologies {
+    grid-column: 1 / 6;
+    text-align: left;
+}
+
+
+
+.link-github {
+    grid-column: 1;
+}
+
+.link-website {
+    grid-column: 2;
+}

@@ -38,7 +38,7 @@
             "image": "tstmaker.png",
             "github": "https://github.com/BastianParedes/tstmaker",
             "description": "Aplicación de escritorio que construye evaluaciones de seleción única de matemática para el nivel secundario de las escuelas chilenas.",
-            "technologies": ["Python 3", "Tkinter", "MiKTeX"]
+            "technologies": ["Python3", "Tkinter", "MiKTeX"]
         }
     ]
 }

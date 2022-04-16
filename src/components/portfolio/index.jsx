@@ -10,18 +10,21 @@ import stylesLeft from './stylesLeft.module.css';
 import projects from './projects.json';
 
 function Project( { index, name, link, image, github, description, technologies }) {
+
+    const stylesSide = index % 2 === 0 ? stylesRight : stylesLeft;
+
     // const imagePath = process.env.PUBLIC_URL + '/images/projects/' + image;
     const imagePath = process.env.PUBLIC_URL + '/images/background/background.jpg';
     return (
-        <div className={styles['project-card']}>
-            <img className={styles['image']} src={imagePath} alt={image}/>
-            <h2 className={styles['project-name']}>{name}</h2>
-            <div className={styles['project-description-container']}>
-                <p className={styles['project-description']}>{description}</p>
+        <div className={`${styles['project-card']} ${stylesSide['project-card']}`}>
+            <img className={`${styles['image']} ${stylesSide['image']}`} src={imagePath} alt={image}/>
+            <h2 className={`${styles['project-name']} ${stylesSide['project-name']}`}>{name}</h2>
+            <div className={`${styles['project-description-container']} ${stylesSide['project-description-container']}`}>
+                <p className={`${styles['project-description']} ${stylesSide['project-description']}`}>{description}</p>
             </div>
-            <span className={styles['project-technologies']}>{technologies.join(' ')}</span>
-            {link !== '' ? <a className={styles['link-website']} href={link} target='_blank' rel='noreferrer noopener'><VscSignOut /></a> : ''}
-            <a className={styles['link-github']} href={github} target='_blank' rel='noreferrer noopener'><VscGithub /></a>
+            <span className={`${styles['project-technologies']} ${stylesSide['project-technologies']}`}>{technologies.join(' ')}</span>
+            {link !== '' ? <a className={`${styles['link-website']} ${stylesSide['link-website']}`} href={link} target='_blank' rel='noreferrer noopener'><VscSignOut /></a> : ''}
+            <a className={`${styles['link-github']} ${stylesSide['link-github']}`} href={github} target='_blank' rel='noreferrer noopener'><VscGithub /></a>
         </div>
     );
 }
