@@ -1,5 +1,5 @@
 
-.image {
+.image-container, .image {
     grid-column: 6 / -1;
 }
 

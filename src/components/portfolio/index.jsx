@@ -16,7 +16,15 @@ function Project( { index, name, link, image, github, description, technologies 
     const imagePath = process.env.PUBLIC_URL + '/images/projects/' + image;
     return (
         <div className={styles['project-card']}>
-            <img className={`${styles['image']} ${stylesSide['image']}`} src={imagePath} alt={image}/>
+            {
+                link !== '' ?
+                <a className={`${styles['image']} ${stylesSide['image-container']}`} href={link} target='_blank' rel='noreferrer noopener'>
+                    <img className={`${styles['image']} ${stylesSide['image']}`} src={imagePath} alt={image} />
+                </a>
+                :
+                <img className={`${styles['image']} ${stylesSide['image']}`} src={imagePath} alt={image} />
+            }
+            
             <h2 className={`${styles['project-name']} ${stylesSide['project-name']}`}>{name}</h2>
             <div className={`${styles['project-description-container']} ${stylesSide['project-description-container']}`}>
                 <p className={`${styles['project-description']} ${stylesSide['project-description']}`}>{description}</p>
