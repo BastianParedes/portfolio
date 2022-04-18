@@ -11,8 +11,8 @@ import Footer from './components/footer';
 export default function App() {
     return <>
         <Home />
-        <Nav />
         <div style={{position: 'relative', backgroundColor: 'rgb(0, 85, 124)'}}>
+            <Nav />
             <About />
             <Portfolio />
             <Contact />
