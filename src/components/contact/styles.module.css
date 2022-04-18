@@ -48,7 +48,7 @@
 
 
 
-@media (max-device-width: 600px) {
+@media (max-device-width: 700px) {
     .link-container {
         width: fit-content;
         height: fit-content;
