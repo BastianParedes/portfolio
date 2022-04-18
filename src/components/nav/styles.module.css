@@ -46,6 +46,11 @@
     border: none;
     margin-right: 1rem;
     cursor: pointer;
+    transition: all ease 1s;
+}
+
+.button-animation {
+    transform: rotate(-180deg);
 }
 
 

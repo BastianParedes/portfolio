@@ -33,7 +33,7 @@ export default function Nav() {
                 <img className={styles['logo']} src={logoPath} alt="Bastián Paredes" />
             </div>
             <div className={styles['button-container']}>
-                <button className={styles['button']} onClick={() => setOpened(!opened)}><AiOutlineMenu /></button>
+                <button className={`${styles['button']} ${opened ? styles['button-animation'] : ''}`} onClick={() => setOpened(!opened)}><AiOutlineMenu /></button>
             </div>
             <ul className={`${styles['links-container']} ${opened ? styles['links-container-opened'] : ''}`}>
                 <Link link='#home' title='Home' />
