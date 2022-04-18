@@ -13,8 +13,7 @@ function Project( { index, name, link, image, github, description, technologies 
 
     const stylesSide = index % 2 === 0 ? stylesRight : stylesLeft;
 
-    // const imagePath = process.env.PUBLIC_URL + '/images/projects/' + image;
-    const imagePath = process.env.PUBLIC_URL + '/images/background/background.jpg';
+    const imagePath = process.env.PUBLIC_URL + '/images/projects/' + image;
     return (
         <div className={styles['project-card']}>
             <img className={`${styles['image']} ${stylesSide['image']}`} src={imagePath} alt={image}/>
