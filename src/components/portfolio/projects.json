@@ -2,9 +2,9 @@
     "projects": [
         {
             "name": "Tu Salad",
-            "link": "https://tu-salad.herokuapp.com/",
+            "link": "https://tusalad.herokuapp.com/",
             "image": "tu-salad.png",
-            "github": "https://github.com/BastianParedes/tu-salad",
+            "github": "https://github.com/BastianParedes/tusalad/",
             "description": "Página web de venta de bowls de ensalada que incluye un carrito de compras y una pasarela de pago construida mediante el servicio Webpay plus de Transbank. Las compras quedan registradas en una base de datos para consultar su estado.",
             "technologies": ["React.js", "Next.js", "TypeScript", "WebPay"]
         },
@@ -28,7 +28,7 @@
             "name": "TstMaker",
             "link": "",
             "image": "tstmaker.png",
-            "github": "https://github.com/BastianParedes/tstmaker",
+            "github": "https://github.com/BastianParedes/tstmaker/",
             "description": "Aplicación de escritorio que construye evaluaciones de seleción única de matemática para el nivel secundario de las escuelas chilenas.",
             "technologies": ["Python3", "Tkinter", "MiKTeX"]
         }
