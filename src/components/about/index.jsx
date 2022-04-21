@@ -38,8 +38,9 @@ export default function About() {
                         <Skill src='typescript.png' name='TypeScript' />
                         <Skill src='react.js.png' name='React.js' />
                         <Skill src='next.js.png' name='Next.js' />
-                        <Skill src='mysql.png' name='MySql' />
                         <Skill src='python3.png' name='Python 3' />
+                        <Skill src='mysql.png' name='MySql' />
+                        <Skill src='mongodb.png' name='MongoDB' />
                     </div>
                 </div>
             </div>
