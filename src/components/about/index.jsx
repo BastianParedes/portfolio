@@ -40,7 +40,7 @@ export default function About() {
                         <Skill src='next.js.png' name='Next.js' />
                         <Skill src='python3.png' name='Python 3' />
                         <Skill src='mysql.png' name='MySql' />
-                        <Skill src='mongodb.png' name='MongoDB' />
+                        <Skill src='mongodb.svg' name='MongoDB' />
                     </div>
                 </div>
             </div>
