@@ -2,7 +2,7 @@
     "projects": [
         {
             "name": "Tu Salad",
-            "link": "https://tusalad.herokuapp.com/",
+            "link": "https://tusalad.vercel.app/",
             "image": "tu-salad.png",
             "github": "https://github.com/BastianParedes/tusalad/",
             "description": "Página web de venta de bowls de ensalada que incluye un carrito de compras y una pasarela de pago construida mediante el servicio Webpay plus de Transbank. Las compras quedan registradas en una base de datos para consultar su estado.",
