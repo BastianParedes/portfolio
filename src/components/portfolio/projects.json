@@ -10,7 +10,7 @@
         },
         {
             "name": "PDF Constructor",
-            "link": "https://bastianparedes.com/pdf-constructor/",
+            "link": "https://pdf-constructor.vercel.app/",
             "image": "pdf-constructor.png",
             "github": "https://github.com/BastianParedes/pdf-constructor/",
             "description": "Es una página web que recibe las imágenes cargadas por el usuario, las configura a gusto y finalmente genera un archivo PDF que se guarda en el computador del mismo. Todo el proceso ocurre del lado del Front-end.",
@@ -18,7 +18,7 @@
         },
         {
             "name": "My Global Chat",
-            "link": "https://bastianparedes.com/my-global-chat/",
+            "link": "https://my-global-chat.vercel.app/",
             "image": "my-global-chat.png",
             "github": "https://github.com/BastianParedes/my-global-chat/",
             "description": "Aplicación web que pide al usuario un nombre y lo lleva a una sala donde todos los conectados a la página en ese momento pueden conversar al mismo tiempo.",
